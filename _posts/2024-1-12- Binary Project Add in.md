@@ -1,11 +1,11 @@
 ---
-toc: true
-comments: false
+toc: True
+comments: False
 layout: post
 title: Binary Blackjack
-description: 
-type: 
-courses: { compsci: {week: 14} }
+description: None
+type: hacks
+courses: {'compsci': {'week': 14}}
 ---
 
 <html lang="en">
