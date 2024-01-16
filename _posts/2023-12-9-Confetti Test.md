@@ -6,6 +6,7 @@ title: Conffeti Test
 description: None
 type: hacks
 courses: {'compsci': {'week': 15}}
+image: images/istockphoto-1339034513-612x612.jpg
 ---
 
 
