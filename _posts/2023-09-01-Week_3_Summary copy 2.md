@@ -6,6 +6,7 @@ title: Week 3 Summary
 description: This is the summary for week 3
 type: plans
 courses: { compsci: {week: 3} }
+image: images/erfef.webp
 ---
 
 

@@ -6,6 +6,7 @@ title: Week 2 Summary
 description: This is the summary for week 2 
 type: plans
 courses: { compsci: {week: 2} }
+image: images/erfef.webp
 ---
 
 #### Monday

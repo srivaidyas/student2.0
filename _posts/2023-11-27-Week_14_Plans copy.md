@@ -6,6 +6,7 @@ title: Week 14 Plans
 description: These are the plans for week 14 with uses the utterence bot
 type: plans
 courses: { compsci: {week: 14} }
+image: images/plan-dice-760.jpg
 ---
 
 

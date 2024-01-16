@@ -6,6 +6,7 @@ title: Week 11 Summary
 description: These are the summary for week 11 with uses the utterence bot
 type: plans
 courses: { compsci: {week: 11} }
+image: images/erfef.webp
 ---
 
 

@@ -6,6 +6,7 @@ title: Week 1 Summary
 description: This is a small summary of the 1st week.
 type: plans
 courses: { compsci: {week: 1} }
+image: images/erfef.webp
 ---
 
 
