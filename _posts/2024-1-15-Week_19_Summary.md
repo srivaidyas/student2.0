@@ -2,15 +2,15 @@
 toc: true
 comments: false
 layout: post
-title: Week 18 Summary
-description: These are the plans for week 15 with uses the utterence bot
+title: Week 19 Summary
+description: These are the plans for week 19 with uses the utterence bot
 type: plans
-courses: { compsci: {week: 18} }
+courses: { compsci: {week: 19} }
 ---
 
 
-#### Plans for week 17
-These plans include detailed steps for week 17 assignment
+#### Plans for week 19
+These plans include detailed steps for week 19 assignment
 
 <script src="https://utteranc.es/client.js"
     repo="srivaidyas/student2.0"
