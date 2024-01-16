@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Week 17 Plans
-description: These are the plans for week 15 with uses the utterence bot
+description: These are the plans for week 17 with uses the utterence bot
 type: plans
 courses: { compsci: {week: 17} }
 ---

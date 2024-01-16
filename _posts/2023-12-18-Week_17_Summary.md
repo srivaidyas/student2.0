@@ -9,8 +9,8 @@ courses: { compsci: {week: 17} }
 ---
 
 
-#### Plans for week 15
-These plans include detailed steps for week 15 assignment
+#### Plans for week 17
+These plans include detailed steps for week 17 assignment
 
 <script src="https://utteranc.es/client.js"
     repo="srivaidyas/student2.0"
