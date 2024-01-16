@@ -6,6 +6,7 @@ title: Week 19 Summary
 description: These are the plans for week 19 with uses the utterence bot
 type: plans
 courses: { compsci: {week: 19} }
+image: images/erfef.webp
 ---
 
 

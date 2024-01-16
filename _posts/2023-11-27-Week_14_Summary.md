@@ -6,6 +6,7 @@ title: Week 14 Summary
 description: These are the summary for week 14 with uses the utterence bot
 type: plans
 courses: { compsci: {week: 14} }
+image: images/erfef.webp
 ---
 
 

@@ -6,6 +6,7 @@ title: Binary Blackjack
 description: None
 type: hacks
 courses: {'compsci': {'week': 14}}
+image: images/640px-Blackjack21.jpg
 ---
 
 <html lang="en">

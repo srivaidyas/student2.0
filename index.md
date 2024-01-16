@@ -63,4 +63,6 @@ CSP Blog: August 2023 - June 2024
     <label id = "questionLabel" for="userInput">What grade am I in?</label>
     <input type="text" id="userInput">
     <button onclick="checkInput()">Submit</button>
-</div> 
+</div> <br>
+
+<h2>Blogs</h2><br>
