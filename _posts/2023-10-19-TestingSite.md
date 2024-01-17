@@ -6,6 +6,7 @@ title: Testing
 description: 
 type: hacks
 courses: { compsci: {week: 9} }
+image: images/sdkjfn.jpeg
 ---
 
 
