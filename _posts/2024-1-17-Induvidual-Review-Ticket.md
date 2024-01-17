@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Induvidual Review Ticket
 description: 
-type: tangibles
+type: hacks
 courses: { compsci: {week: 19} }
 image: images/jhj.jpeg
 ---
