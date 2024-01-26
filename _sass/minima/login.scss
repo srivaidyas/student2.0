@@ -1,0 +1,42 @@
+$primary-color: #3498DB; // Primary color for your theme
+$hover-color: darken($primary-color, 10%); // Darken primary color for hover state
+$font-family: Arial, sans-serif; // Default font family
+$border-radius: 5px; // Border radius for buttons and inputs
+$padding: 10px 15px; // Padding for buttons and inputs
+
+// Common input styles
+.input-text {
+  width: 100%;
+  padding: $padding;
+  margin: 10px 0;
+  border: 1px solid $primary-color;
+  border-radius: $border-radius;
+  font-family: $font-family;
+  box-sizing: border-box; // Ensure padding doesn't affect overall width
+  &:focus {
+    outline: none;
+    border-color: darken($primary-color, 15%);
+  }
+}
+
+// Button styling
+.button {
+  width: 100%;
+  padding: $padding;
+  margin: 5px 0;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: $border-radius;
+  font-family: $font-family;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  &:hover {
+    background-color: $hover-color;
+  }
+}
+
+// Specific styles for the register button
+.register-button {
+  background-color: lighten($primary-color, 10%);
+}
