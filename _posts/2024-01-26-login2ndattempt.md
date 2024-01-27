@@ -1,7 +1,13 @@
 ---
-layout: login
-search_exclude: true
+toc: true
+comments: false
+layout: post
+title: Index Page 2
+description: 
+type: hacks
+courses: { compsci: {week: 20} }
 ---
+
 
 <html>
   <head>
@@ -107,6 +113,3 @@ search_exclude: true
     </script>
   </body>
 </html>
-
-
-

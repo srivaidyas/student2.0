@@ -2,7 +2,7 @@
 toc: true
 comments: false
 layout: post
-title: Index Page 2
+title: Index Page 1
 description: 
 type: hacks
 courses: { compsci: {week: 20} }
