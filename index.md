@@ -51,10 +51,12 @@ search_exclude: true
       .then(response => response.json())
       .then(data => {
         console.log('User registration successful:', data);
+        alert('Registration successful!');
         // Optionally, you can show a success message or redirect the user
       })
       .catch(error => {
         console.error('Error registering user:', error);
+        alert('Registration failed. Please try again.');
         // Handle error, show error message, etc.
       });
     }
@@ -77,10 +79,12 @@ search_exclude: true
       .then(response => {
         if (response.ok) {
           console.log('Login successful');
+          alert('Login succesful, redirecting you to the main page');
           // Optionally, you can redirect the user to another link
-          window.location.href = 'https://srivaidyas.github.io/student/compsci';
+          window.location.href = 'https://srivaidyas.github.io/student2.0/AD_compsci.html';
         } else {
           console.log('Login failed');
+          alert('Login failed, please check you credentials');
           // Optionally, you can show an error message
         }
       })
