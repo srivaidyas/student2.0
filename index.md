@@ -3,110 +3,92 @@ layout: login
 search_exclude: true
 ---
 
-<html>
-  <head>
-    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <style>
-      /* Your existing Sass code here */
-    </style>
-  </head>
-  <body>
-    <div class="container" style="text-align: center;">
-      <center>
-        <h1>Welcome to Sri's Blog</h1>
-      </center>
-      <div id="registerModal" class="modal" style="display: none;">
-        <div class="modal-content">
-          <span class="close" onclick="closeRegisterModal()">&times;</span>
-          <input
-            type="text"
-            class="input-text"
-            id="registerUsername"
-            placeholder="Username"
-          />
-          <input
-            type="password"
-            class="input-text"
-            id="registerPassword"
-            placeholder="Password"
-          />
-<button class="button" onclick="registerUser()">Register</button>
-        </div>
-      </div>
-      <input
-        type="text"
-        class="input-text"
-        id="loginUsername"
-        placeholder="Username"
-      />
-      <input
-        type="password"
-        class="input-text"
-        id="loginPassword"
-        placeholder="Password"
-      />
-      <button class="button" onclick="login()">Login</button>
-      <button
-        class="button register-button"
-        onclick="openRegisterModal()"
-      >
-        Register New User
-      </button>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="your_stylesheet.css">
+  <title>Login Page</title>
+</head>
+<body>
+  <div class="container" style="text-align: center;">
+    <h1>Welcome to Sri's Blog</h1>
+    <input id="usernameInput" type="text" class="input-text" placeholder="Username">
+    <input id="passwordInput" type="password" class="input-text" placeholder="Password">
+    <button id="loginButton" class="button" onclick="loginUser()">Login</button>
+    <button id="registerButton" class="button register-button" onclick="showRegistrationForm()">Register New User</button>
+
+    <!-- Registration Form (Hidden by default) -->
+    <div id="registrationForm" style="display: none;">
+      <h2>Register New User</h2>
+      <input id="newUsernameInput" type="text" class="input-text" placeholder="New Username">
+      <input id="newPasswordInput" type="password" class="input-text" placeholder="New Password">
+      <button id="registerNewUserButton" class="button" onclick="registerUser()">Register</button>
     </div>
+  </div>
 
-    <script>
-      function openRegisterModal() {
-        document.getElementById("registerModal").style.display = "block";
-      }
+  <script>
+    function showRegistrationForm() {
+      document.getElementById("registrationForm").style.display = "block";
+    }
 
-      function closeRegisterModal() {
-        document.getElementById("registerModal").style.display = "none";
-      }
+    function registerUser() {
+      const newUsername = document.getElementById("newUsernameInput").value;
+      const newPassword = document.getElementById("newPasswordInput").value;
 
-      function registerUser() {
-    var username = $("#registerUsername").val();
-    var password = $("#registerPassword").val();
-
-    $.ajax({
-        type: "POST",
-        url: "http://127.0.0.1:5000/users",
-        contentType: "application/json",
-        data: JSON.stringify({ username: username, password: password }),
-        success: function (data) {
-            alert("User registered successfully!");
-            closeRegisterModal();  // Ensure the modal is closed after successful registration
+      // Make a POST request to register a new user
+      fetch('http://127.0.0.1:5000/users', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-        error: function (xhr, status, error) {
-            console.error("Error registering user:", error);
-            console.log(xhr.responseText);
-            alert("Error registering user. Check the console for details.");
+        body: JSON.stringify({
+          username: newUsername,
+          password: newPassword,
+        }),
+      })
+      .then(response => response.json())
+      .then(data => {
+        console.log('User registration successful:', data);
+        // Optionally, you can show a success message or redirect the user
+      })
+      .catch(error => {
+        console.error('Error registering user:', error);
+        // Handle error, show error message, etc.
+      });
+    }
+
+    function loginUser() {
+      const username = document.getElementById("usernameInput").value;
+      const password = document.getElementById("passwordInput").value;
+
+      // Make a POST request to check login credentials
+      fetch('http://127.0.0.1:5000/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
         },
-    });
-}
-
-
-      function login() {
-        var username = $("#loginUsername").val();
-        var password = $("#loginPassword").val();
-
-        $.ajax({
-          type: "POST",
-          url: "http://127.0.0.1:5000/login",
-          contentType: "application/json",
-          data: JSON.stringify({ username: username, password: password }),
-          success: function (data) {
-            alert("Login successful!");
-            window.location.href =
-              "https://srivaidyas.github.io/student2.0/AD_compsci.html";
-          },
-          error: function (error) {
-            alert("Login failed. Please check your credentials.");
-          },
-        });
-      }
-    </script>
-  </body>
+        body: JSON.stringify({
+          username: username,
+          password: password,
+        }),
+      })
+      .then(response => {
+        if (response.ok) {
+          console.log('Login successful');
+          // Optionally, you can redirect the user to another link
+          window.location.href = 'https://srivaidyas.github.io/student/compsci';
+        } else {
+          console.log('Login failed');
+          // Optionally, you can show an error message
+        }
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        // Handle error, show error message, etc.
+      });
+    }
+  </script>
+</body>
 </html>
-
-
-
