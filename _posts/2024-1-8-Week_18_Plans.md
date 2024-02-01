@@ -9,7 +9,7 @@ courses: { compsci: {week: 18} }
 image: images/plan-dice-760.jpg
 ---
 
-
+<div class="login_div">
 #### Plans for week 18
 These plans include detailed steps for week 18 assignment
 
