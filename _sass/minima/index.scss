@@ -1,0 +1,88 @@
+$primary-bg-color: #000;
+$secondary-bg-color: #111;
+$border-color: #555;
+$button-bg-color: #000;
+$button-hover-color: #111;
+$error-color: #ff0000;
+$link-color: #4caf50;
+
+body {
+  background-color: $primary-bg-color;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+form {
+  background-color: $secondary-bg-color;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+
+  label {
+    display: block;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 1px solid $border-color;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #333;
+    color: #fff;
+    outline: none;
+  }
+
+  input[type="submit"] {
+    background-color: $button-bg-color;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    padding: 14px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: $button-hover-color;
+    }
+  }
+
+  .error-message {
+    color: $error-color;
+    margin-top: 15px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  .signup-link {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 16px;
+
+    a {
+      color: $link-color;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
