@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Mode Signup Page</title>
+  <style>
+    :root {
+      --primary-color: #000000; /* Black color for buttons */
+      --hover-color: #333333; /* Darkened color on hover */
+      --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      --border-radius: 8px;
+      --padding: 15px;
+    }
+  
+    body {
+      font-family: var(--font-family);
+      background-color: #1a1a1a;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      color: #fff;
+    }
+  
+    form {
+      background-color: #2a2a2a;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+      width: 400px;
+    }
+  
+    label {
+      display: block;
+      margin-bottom: 15px;
+      color: #fff;
+      font-size: 16px;
+    }
+  
+    input {
+      width: 100%;
+      padding: var(--padding);
+      margin: 10px 0;
+      border: 1px solid var(--primary-color);
+      border-radius: var(--border-radius);
+      font-family: var(--font-family);
+      box-sizing: border-box;
+      color: #fff;
+      background-color: #333;
+      outline: none;
+      &:focus {
+        border-color: #297bb3;
+      }
+    }
+  
+    button {
+      width: 100%;
+      padding: var(--padding);
+      margin: 10px 0;
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      border-radius: var(--border-radius);
+      font-family: var(--font-family);
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: var(--hover-color);
+      }
+    }
+  
+    .register-button {
+      background-color: #4ea0d5;
+    }
+  </style>
+  
+</head>
+
+<body>
+  <form id="signup-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="uid">User ID:</label>
+    <input type="text" id="uid" name="uid" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="submit">Sign Up</button>
+    <br>
+    <button class="back-button" onclick="window.location.href='./'">Back to Login Page</button>
+  </form>
+
+  <script>
+    document.getElementById('signup-form').addEventListener('submit', function (event) {
+      event.preventDefault();
+
+      fetch('http://127.0.0.1:8086/api/users/', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            uid: document.getElementById('uid').value,
+            password: document.getElementById('password').value,
+            name: document.getElementById('name').value,
+          }),
+        })
+        .then(response => response.json())
+        .then(data => {
+          window.location.href = "./";
+          window.location.replace("./");
+        })
+        .catch(error => {
+          // Handle any errors that occurred during the fetch
+          console.error('Error:', error);
+        });
+    });
+  </script>
+</body>
+
+</html>
