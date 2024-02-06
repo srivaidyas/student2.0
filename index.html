@@ -110,7 +110,7 @@
     <input type="submit" value="Login">
     <div class="error-message" id="error-message"></div>
     <div class="signup-link">
-      <a href="./signup.html">Sign Up</a>
+      <a href="./register.html">Sign Up</a>
     </div>
   </div>
 
@@ -159,16 +159,15 @@
           window.location.replace("./AD_compsci");
 
         } else {
-          // Authentication failed, show an error message
-          console.error('Authentication failed');
-          errorMessageElement.textContent = 'Authentication failed. Please check your credentials.';
-          window.location.href = '/404.html';
-        }
-      } catch (error) {
-        console.error('Error:', error);
-        errorMessageElement.textContent = 'Error during authentication. Please try again later.';
-        window.location.href = '/404.html';
-      }
+  // Authentication failed, show an error message
+  console.error('Authentication failed');
+  errorMessageElement.textContent = 'Authentication failed. Please check your credentials.';
+  alert('Incorrect username or password');
+}
+} catch (error) {
+  console.error('Error:', error);
+  alert('Error during authentication. Please check you credentials!.');
+}
     }
   </script>
 </body>

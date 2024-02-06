@@ -1,88 +1,94 @@
-$primary-bg-color: #000;
-$secondary-bg-color: #111;
-$border-color: #555;
-$button-bg-color: #000;
-$button-hover-color: #111;
-$error-color: #ff0000;
-$link-color: #4caf50;
+$font-stack: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$primary-color: #1a1a1a;
+$secondary-color: #2a2a2a; // This was missing a semicolon
+$accent-color: #297bb3;
+$button-hover-color: #333;
+$link-color: #4ea0d5;
 
 body {
-  background-color: $primary-bg-color;
+  font-family: $font-stack;
+  background-color: $primary-color;
+  margin: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 0;
+  color: #fff;
 }
 
-form {
-  background-color: $secondary-bg-color;
-  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-  padding: 30px;
-  border-radius: 10px;
+.container {
   max-width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: $secondary-color;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+input {
   width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border: 1px solid #000;
+  border-radius: 8px;
+  font-family: $font-stack;
+  box-sizing: border-box;
+  color: #fff;
+  background-color: #333;
+  outline: none;
+}
+
+input:focus {
+  border-color: $accent-color;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-family: $font-stack;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: $button-hover-color;
+}
+
+.signup-link {
   text-align: center;
-  margin-top: 30px;
+  margin-top: 20px;
+  font-size: 14px;
+}
 
-  label {
-    display: block;
-    margin-bottom: 12px;
-    font-weight: bold;
-    color: #fff;
-    font-size: 18px;
-  }
+.signup-link a {
+  color: $link-color;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-  input {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
-    border: 1px solid $border-color;
-    border-radius: 6px;
-    font-size: 16px;
-    background-color: #333;
-    color: #fff;
-    outline: none;
-  }
+.signup-link a:hover {
+  text-decoration: underline;
+}
 
-  input[type="submit"] {
-    background-color: $button-bg-color;
-    color: #fff;
-    cursor: pointer;
-    border: none;
-    border-radius: 6px;
-    padding: 14px;
-    font-size: 18px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    transition: background-color 0.3s ease;
+.centered-text {
+  text-align: left;
+  padding-top: 5px;
+  margin-left: 170px; // Adjust the margin as needed
+}
 
-    &:hover {
-      background-color: $button-hover-color;
-    }
-  }
-
-  .error-message {
-    color: $error-color;
-    margin-top: 15px;
-    font-size: 16px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
-
-  .signup-link {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 16px;
-
-    a {
-      color: $link-color;
-      text-decoration: none;
-      font-weight: bold;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-      &:hover {
-        text-decoration: underline;
-      }
-    }
-  }
+.centered-image {
+  text-align: center;
+  margin-top: 20px;
 }
