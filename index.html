@@ -4,6 +4,7 @@
 <html lang="en">
 
 <head>
+  <head>
   <style>
     body {
       background-color: #000;
@@ -13,7 +14,7 @@
       height: 100vh;
       margin: 0;
     }
-  
+
     form {
       background-color: #111;
       box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
@@ -24,7 +25,7 @@
       text-align: center;
       margin-top: 30px;
     }
-  
+
     label {
       display: block;
       margin-bottom: 12px;
@@ -32,60 +33,62 @@
       color: #fff;
       font-size: 18px;
     }
-  
+
     input {
       width: 100%;
       padding: 12px;
       margin-bottom: 20px;
       box-sizing: border-box;
-      border: 1px solid #555;
-      border-radius: 6px;
+      border: 1px solid #3498DB; /* Change border color */
+      border-radius: 5px; /* Use the same border radius as before */
       font-size: 16px;
       background-color: #333;
       color: #fff;
       outline: none;
     }
-  
+
     input[type="submit"] {
-      background-color: #000;
+      background-color: #3498DB; /* Use the same primary color */
       color: #fff;
       cursor: pointer;
       border: none;
-      border-radius: 6px;
+      border-radius: 5px; /* Use the same border radius as before */
       padding: 14px;
       font-size: 18px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif; /* Use the same font family */
       transition: background-color 0.3s ease;
     }
-  
+
     input[type="submit"]:hover {
-      background-color: #111;
+      background-color: #2980B9; /* Use a slightly darker shade on hover */
     }
-  
+
     .error-message {
       color: #ff0000;
       margin-top: 15px;
       font-size: 16px;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif; /* Use the same font family */
     }
-  
+
     .signup-link {
       text-align: center;
       margin-top: 30px;
       font-size: 16px;
     }
-  
+
     .signup-link a {
       color: #4caf50;
       text-decoration: none;
       font-weight: bold;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-family: Arial, sans-serif; /* Use the same font family */
     }
-  
+
     .signup-link a:hover {
       text-decoration: underline;
     }
   </style>
+</head>
+
   
   
 </head>
@@ -93,7 +96,7 @@
 <body>
 
   <main class="page-content" aria-label="Content">
-    <div class="wrapper">
+  
 
       <form id="authenticate">
         <label for="uid">User ID</label>
@@ -103,7 +106,7 @@
         <input type="submit" value="Login">
         <div class="error-message" id="error-message"></div> <!-- New error message element -->
         <div class="signup-link">
-          <p>Don't have an account? <a href="./signup.html">Sign Up</a></p>
+          <a href="./signup.html" style="color: white;">Sign Up</a></p>
         </div>
       </form>
       <script>
@@ -147,10 +150,12 @@
               // Authentication failed, show an error message
               console.error('Authentication failed');
               errorMessageElement.textContent = 'Authentication failed. Please check your credentials.';
+              window.location.href = '/404.html';
             }
           } catch (error) {
             console.error('Error:', error);
             errorMessageElement.textContent = 'Error during authentication. Please try again later.';
+            window.location.href = '/404.html';
           }
         }
       </script>
