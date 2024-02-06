@@ -1,166 +1,168 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <head>
   <style>
     body {
-      background-color: #000;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #1a1a1a;
+      margin: 0;
       display: flex;
       align-items: center;
       justify-content: center;
       height: 100vh;
-      margin: 0;
+      color: #fff;
     }
 
-    form {
-      background-color: #111;
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-      padding: 30px;
-      border-radius: 10px;
+    .container {
       max-width: 400px;
-      width: 100%;
-      text-align: center;
-      margin-top: 30px;
+      margin: 0 auto;
+      padding: 30px;
+      background-color: #2a2a2a;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
     }
 
     label {
       display: block;
-      margin-bottom: 12px;
-      font-weight: bold;
+      margin-bottom: 15px;
       color: #fff;
-      font-size: 18px;
+      font-size: 16px;
     }
 
     input {
       width: 100%;
-      padding: 12px;
-      margin-bottom: 20px;
+      padding: 15px;
+      margin: 10px 0;
+      border: 1px solid #000;
+      border-radius: 8px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       box-sizing: border-box;
-      border: 1px solid #3498DB; /* Change border color */
-      border-radius: 5px; /* Use the same border radius as before */
-      font-size: 16px;
-      background-color: #333;
       color: #fff;
+      background-color: #333;
       outline: none;
     }
 
+    input:focus {
+      border-color: #297bb3;
+    }
+
     input[type="submit"] {
-      background-color: #3498DB; /* Use the same primary color */
-      color: #fff;
-      cursor: pointer;
+      width: 100%;
+      padding: 15px;
+      margin: 10px 0;
+      background-color: #000;
+      color: white;
       border: none;
-      border-radius: 5px; /* Use the same border radius as before */
-      padding: 14px;
-      font-size: 18px;
-      font-family: Arial, sans-serif; /* Use the same font family */
+      border-radius: 8px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      cursor: pointer;
       transition: background-color 0.3s ease;
     }
 
     input[type="submit"]:hover {
-      background-color: #2980B9; /* Use a slightly darker shade on hover */
-    }
-
-    .error-message {
-      color: #ff0000;
-      margin-top: 15px;
-      font-size: 16px;
-      font-family: Arial, sans-serif; /* Use the same font family */
+      background-color: #333;
     }
 
     .signup-link {
       text-align: center;
-      margin-top: 30px;
-      font-size: 16px;
+      margin-top: 20px;
+      font-size: 14px;
     }
 
     .signup-link a {
-      color: #4caf50;
+      color: #4ea0d5;
       text-decoration: none;
       font-weight: bold;
-      font-family: Arial, sans-serif; /* Use the same font family */
     }
 
     .signup-link a:hover {
       text-decoration: underline;
     }
-  </style>
-</head>
 
-  
-  
+    .centered-text {
+      text-align: left;
+      padding-top: 5px;
+      margin-left: 170px; /* Adjust the margin as needed */
+    }
+
+    .centered-image {
+      text-align: center;
+      margin-top: 20px;
+    }
+  </style>
+
 </head>
 
 <body>
-
-  <main class="page-content" aria-label="Content">
-  
-
-      <form id="authenticate">
-        <label for="uid">User ID</label>
-        <input type="text" id="uid" name="uid"><br><br>
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password"><br><br>
-        <input type="submit" value="Login">
-        <div class="error-message" id="error-message"></div> <!-- New error message element -->
-        <div class="signup-link">
-          <a href="./signup.html" style="color: white;">Sign Up</a></p>
-        </div>
-      </form>
-      <script>
-        const apiUrl = "http://127.0.0.1:8086/api/users/authenticate";
-
-        document.getElementById("authenticate").onsubmit = async function (e) {
-          e.preventDefault();
-          const uid = document.getElementById("uid").value;
-          const password = document.getElementById("password").value;
-          const errorMessageElement = document.getElementById("error-message");
-
-          const obj = { uid: uid, password: password };
-
-          try {
-            const response = await fetch(apiUrl, {
-              method: "POST",
-              headers: {
-                "Content-Type": "application/json"
-              },
-              body: JSON.stringify(obj)
-            });
-
-            if (!response.ok) {
-              throw new Error('Authentication request was not successful');
-            }
-
-            const token = await response.text();
-
-            if (token) {
-              // Authentication was successful, you can handle the token as needed
-              console.log('Authentication successful');
-              document.cookie = `token=${token}; path=/`;
-
-              localStorage.setItem("token", token);
-              localStorage.setItem("flagData", 1);
-
-              window.location.href = "./AD_compsci";
-              window.location.replace("./AD_compsci");
-
-            } else {
-              // Authentication failed, show an error message
-              console.error('Authentication failed');
-              errorMessageElement.textContent = 'Authentication failed. Please check your credentials.';
-              window.location.href = '/404.html';
-            }
-          } catch (error) {
-            console.error('Error:', error);
-            errorMessageElement.textContent = 'Error during authentication. Please try again later.';
-            window.location.href = '/404.html';
-          }
-        }
-      </script>
+  <div class="centered-text">
+    <h1>Welcome to Sri's Blog</h1><br><br>
+    <div class="centered-image">
+      <img src="https://i.etsystatic.com/37924478/r/il/b60c65/4282744490/il_fullxfull.4282744490_k65w.jpg" alt="hellow and welcome" height="200px" width="250px">
     </div>
-  </main>
+  </div>
+
+  <div class="container">
+    <label for="uid">User ID</label>
+    <input type="text" id="uid" name="uid"><br>
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password"><br>
+    <input type="submit" value="Login">
+    <div class="error-message" id="error-message"></div>
+    <div class="signup-link">
+      <a href="./signup.html">Sign Up</a>
+    </div>
+  </div>
+
+  <script>
+    const apiUrl = "http://127.0.0.1:8086/api/users/authenticate";
+
+    document.querySelector(".container input[type='submit']").onclick = async function () {
+      const uid = document.getElementById("uid").value;
+      const password = document.getElementById("password").value;
+      const errorMessageElement = document.getElementById("error-message");
+
+      const obj = { uid: uid, password: password };
+
+      try {
+        const response = await fetch(apiUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(obj)
+        });
+
+        if (!response.ok) {
+          throw new Error('Authentication request was not successful');
+        }
+
+        const token = await response.text();
+
+        if (token) {
+          // Authentication was successful, you can handle the token as needed
+          console.log('Authentication successful');
+          document.cookie = `token=${token}; path=/`;
+
+          localStorage.setItem("token", token);
+          localStorage.setItem("flagData", 1);
+
+          window.location.href = "./AD_compsci";
+          window.location.replace("./AD_compsci");
+
+        } else {
+          // Authentication failed, show an error message
+          console.error('Authentication failed');
+          errorMessageElement.textContent = 'Authentication failed. Please check your credentials.';
+          window.location.href = '/404.html';
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        errorMessageElement.textContent = 'Error during authentication. Please try again later.';
+        window.location.href = '/404.html';
+      }
+    }
+  </script>
 </body>
 
 </html>
