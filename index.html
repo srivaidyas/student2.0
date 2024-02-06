@@ -147,6 +147,14 @@
           localStorage.setItem("token", token);
           localStorage.setItem("flagData", 1);
 
+
+          const username = document.getElementById("uid").value;
+
+  // Check if a username is entered
+  if (username) {
+    // Display personalized greeting message
+    alert(`Welcome, ${username}! Redirecting you to the homepage, hold on!`);
+  }
           window.location.href = "./AD_compsci";
           window.location.replace("./AD_compsci");
 

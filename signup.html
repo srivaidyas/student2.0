@@ -112,6 +112,15 @@
         })
         .then(response => response.json())
         .then(data => {
+           // Extract username from registration data
+           const username = data.name;
+
+// Display personalized success message
+if (username) {
+  alert(`Registration Successful, ${username}!`);
+} else {
+  alert('Registration Successful');
+}
           window.location.href = "./";
           window.location.replace("./");
         })
