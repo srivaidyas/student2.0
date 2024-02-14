@@ -2,9 +2,9 @@
 toc: true
 comments: false
 layout: post
-title: Mathnopoly
+title: Crossword medium
 description: 
-type: hacks
+type: tangibles
 courses: { compsci: {week: 23} }
 ---
 

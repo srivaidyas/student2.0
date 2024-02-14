@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Tic Tac Toe Hard
 description: 
-type: hacks
+type: tangibles
 courses: { compsci: {week: 23} }
 ---
 

@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Tick tac toe Easy
 description: 
-type: hacks
+type: tangibles
 courses: { compsci: {week: 23} }
 ---
 
