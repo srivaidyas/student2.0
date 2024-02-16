@@ -1,11 +1,5 @@
 ---
-toc: true
-comments: false
 layout: post
-title: Mathnopoly Test 1
-description: 
-type: hacks
-courses: { compsci: {week: 22} }
 ---
 
 <html lang="en">

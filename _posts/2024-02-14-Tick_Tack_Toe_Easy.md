@@ -1,11 +1,5 @@
 ---
-toc: true
-comments: false
 layout: post
-title: Tick tac toe Easy
-description: 
-type: tangibles
-courses: { compsci: {week: 23} }
 ---
 
 <html lang="en">

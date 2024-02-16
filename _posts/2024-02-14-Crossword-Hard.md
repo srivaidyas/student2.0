@@ -1,11 +1,5 @@
 ---
-toc: true
-comments: false
 layout: post
-title: Crossword Hard
-description: 
-type: hacks
-courses: { compsci: {week: 23} }
 ---
 
 

@@ -1,11 +1,5 @@
 ---
-toc: true
-comments: false
 layout: post
-title: Crossword medium
-description: 
-type: tangibles
-courses: { compsci: {week: 23} }
 ---
 
 <html lang="en">
