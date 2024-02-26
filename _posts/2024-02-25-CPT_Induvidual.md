@@ -56,6 +56,8 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 | Instructions for visual output based on input and program functionality | Shows a new hint and updates the word on the crossword box after the user gets it right or uses the give up button ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/ce571ea346ef6ead917ebd74f6e46f0fad6625f8/images/Screenshot%202024-02-25%20at%209.00.14%E2%80%AFPM.png) --- ![123](https://raw.githubusercontent.com/srivaidyas/student2.0/ce571ea346ef6ead917ebd74f6e46f0fad6625f8/images/Screenshot%202024-02-25%20at%208.59.57%E2%80%AFPM.png) |
 
+| Instructions for interation (time out)| REstarts the game ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-26%20at%2012.06.27%E2%80%AFPM.png)|
+
 <br><br>
 
 ## Component A (Tic Tac Toe): Program Code 
@@ -85,6 +87,8 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 
 |Instructions for visual output based on input and program functionality| Allows the the ai dot or the user dot to be place in teh board accroing to where the user clicks and the ai is played ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.39.27%E2%80%AFPM.png) ---- ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.40%E2%80%AFPM.png) ----  ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.08%E2%80%AFPM.png)|
+
+| Instructions for interation (time out)| REstarts the game ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-26%20at%2012.03.59%E2%80%AFPM.png)|
 
 ## Component B: Video 
 
