@@ -80,7 +80,7 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 | Calls to your student-developed procedure | The boxClickHandler function controls player moves in the Tic Tac Toe game. It starts by gathering information about the clicked box and its position in the grid. After verifying that the box is empty and updating with the player's symbol, it checks for win conditions and ties using checkWin. If neither condition is met, it triggers the AI's move with a delay via makeAIMoveWithDelay. This function serves as a central hub for managing player interactions, game state updates, and AI responses, ensuring a smooth gameplay experience. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.34.21%E2%80%AFPM.png) |
 
 
-| Instructions for textual output based on input and program functionality | ![Codepic]()|
+| Instructions for textual output based on input and program functionality | Alerts teh user if they win or teh ai wins, inside the check fucntion ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.36.53%E2%80%AFPM.png)|
 
 
 | Instructions for visual output based on input and program functionality | ![Codepic]() |
