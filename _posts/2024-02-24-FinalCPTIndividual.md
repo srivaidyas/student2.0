@@ -50,10 +50,10 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 | Calls to your student-developed procedure | Calling to the hint box function ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%208.20.47%E2%80%AFPM.png) |
 
 
-| Instructions for textual output based on input and program functionality | These alerts inform the user if they got th eword ocrrect or not ans also if and when they use the give up button time is taken off from them ![CodePic](https://media.discordapp.net/attachments/974516458300256316/1211222388763791390/textual_output.png?ex=65ed69c0&is=65daf4c0&hm=82237624f81da02eae42c929bbbc16bad1849b7760d02e06fe660726fafac354&=&format=webp&quality=lossless&width=1544&height=752) |
+| Instructions for textual output based on input and program functionality | These alerts inform the user if they got th eword ocrrect or not ans also if and when they use the give up button time is taken off from them ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/a9483e1972dcf96449c6713eac1834c2351795ee/images/Screenshot%202024-02-25%20at%208.55.49%E2%80%AFPM.png)  --- ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/a9483e1972dcf96449c6713eac1834c2351795ee/images/Screenshot%202024-02-25%20at%208.56.25%E2%80%AFPM.png) ---- ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/a9483e1972dcf96449c6713eac1834c2351795ee/images/Screenshot%202024-02-25%20at%208.57.48%E2%80%AFPM.png) ---- |
 
 
-| Instructions for visual output based on input and program functionality | Update position of player/ai on visual board. ![CodePic](https://media.discordapp.net/attachments/974516458300256316/1211222389082423356/visual_output.png?ex=65ed69c0&is=65daf4c0&hm=f5af7a71f35a1a1effcdf78d02d0edb4c31e0d0809a01170d19299f6ddaf7a57&=&format=webp&quality=lossless&width=2392&height=1306) |
+| Instructions for visual output based on input and program functionality | Shows a new hint and updates the word on the crossword box after the user gets it right or uses the give up button ![CodePic]() --- ![123]() |
 
 ## Component B: Video 
 
