@@ -61,7 +61,7 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 | Requirements | Completed | 
 | --------------- | -----------------| 
-| Instructions for input from the user (including user actions that trigger events) | The following code details out the function checks for the user input on the boxes and then also checks for where the user wins or not. The second portion is what is triggered after the user the ai is triggered to play on.<br>![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.17.33%E2%80%AFPM.png) ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.19.38%E2%80%AFPM.png)|
+| Instructions for input from the user (including user actions that trigger events) | The following code details out the function checks for the user input on the boxes and then also checks for where the user wins or not. The second portion is what is triggered after the user the ai is triggered to play on.<br>![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.17.33%E2%80%AFPM.png) ------ ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.19.38%E2%80%AFPM.png)|
 
 
 
@@ -73,7 +73,7 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 | One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | The code below details out the ai move, wiout the ai move the game would not continue and thus this procedure contributed most to the program's intendfed purpose which keeps the game going on and the user challeged with teh ai moves and thus try their best to win the game. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.24.59%E2%80%AFPM.png) ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.25.22%E2%80%AFPM.png) |
 
 
-| An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure | ![Codepic]() |
+| An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure | The check win function is the one here that uses the if and ewlse statments. This algorithm involves sequencing (step-by-step execution), selection (conditional checks), and iteration (looping over winning combinations) to determine if a player has won or if the game has ended in a tie. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.31.03%E2%80%AFPM.png) |
 
 
 
