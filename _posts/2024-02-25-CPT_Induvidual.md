@@ -83,8 +83,8 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 | Instructions for textual output based on input and program functionality | Alerts teh user if they win or teh ai wins, inside the check fucntion ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.36.53%E2%80%AFPM.png)|
 
 
-| Instructions for visual output based on input and program functionality | ![Codepic]() |
-
+| Instructions for visual output based on input and program functionality | Allows the the ai dot or the user dot to be place in teh board accroing to where the user clicks and the ai is played ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.39.27%E2%80%AFPM.png) ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.08%E2%80%AFPM.png) ![Codepic]() ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.40%E2%80%AFPM.png) |
+<br><br><br>
 ## Component B: Video 
 
 [Video Link](https://drive.google.com/file/d/1ABuaUy8QQnu4C5bEtYBdWsV4WsEGpEy8/view?usp=sharing)
