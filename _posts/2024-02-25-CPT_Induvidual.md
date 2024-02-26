@@ -61,11 +61,11 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 | Requirements | Completed | 
 | --------------- | -----------------| 
-| Instructions for input from the user (including user actions that trigger events) |<br>![CodePic]()|
+| Instructions for input from the user (including user actions that trigger events) | The following code details out the function checks for the user input on the boxes and then also checks for where the user wins or not. The second portion is what is triggered after the user the ai is triggered to play on.<br>![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.17.33%E2%80%AFPM.png) ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.19.38%E2%80%AFPM.png)|
 
 
 
-| Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose | ![Codepic]() | 
+| Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose | These lits details out all the possible combination for a win by either the player or the ai all the 3 box combinations ![Codepic]() | 
 
 
 
