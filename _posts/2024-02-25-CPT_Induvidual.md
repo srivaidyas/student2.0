@@ -53,6 +53,7 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 | Instructions for textual output based on input and program functionality | These alerts inform the user if they got th eword ocrrect or not ans also if and when they use the give up button time is taken off from them ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/a9483e1972dcf96449c6713eac1834c2351795ee/images/Screenshot%202024-02-25%20at%208.55.49%E2%80%AFPM.png)  --- ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/a9483e1972dcf96449c6713eac1834c2351795ee/images/Screenshot%202024-02-25%20at%208.56.25%E2%80%AFPM.png) ---- ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/a9483e1972dcf96449c6713eac1834c2351795ee/images/Screenshot%202024-02-25%20at%208.57.48%E2%80%AFPM.png) ---- |
 
 
+
 | Instructions for visual output based on input and program functionality | Shows a new hint and updates the word on the crossword box after the user gets it right or uses the give up button ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/ce571ea346ef6ead917ebd74f6e46f0fad6625f8/images/Screenshot%202024-02-25%20at%209.00.14%E2%80%AFPM.png) --- ![123](https://raw.githubusercontent.com/srivaidyas/student2.0/ce571ea346ef6ead917ebd74f6e46f0fad6625f8/images/Screenshot%202024-02-25%20at%208.59.57%E2%80%AFPM.png) |
 
 <br><br>
@@ -70,7 +71,7 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 
 
-| One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | The code below details out the ai move, wiout the ai move the game would not continue and thus this procedure contributed most to the program's intendfed purpose which keeps the game going on and the user challeged with teh ai moves and thus try their best to win the game. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.24.59%E2%80%AFPM.png) ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.25.22%E2%80%AFPM.png) |
+| One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | The code below details out the ai move, wiout the ai move the game would not continue and thus this procedure contributed most to the program's intendfed purpose which keeps the game going on and the user challeged with teh ai moves and thus try their best to win the game. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.24.59%E2%80%AFPM.png) ---- ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.25.22%E2%80%AFPM.png) |
 
 
 | An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure | The check win function is the one here that uses the if and ewlse statments. This algorithm involves sequencing (step-by-step execution), selection (conditional checks), and iteration (looping over winning combinations) to determine if a player has won or if the game has ended in a tie. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.31.03%E2%80%AFPM.png) |
@@ -83,18 +84,18 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 | Instructions for textual output based on input and program functionality | Alerts teh user if they win or teh ai wins, inside the check fucntion ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.36.53%E2%80%AFPM.png)|
 
 
-| Instructions for visual output based on input and program functionality | Allows the the ai dot or the user dot to be place in teh board accroing to where the user clicks and the ai is played ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.39.27%E2%80%AFPM.png) ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.08%E2%80%AFPM.png) ![Codepic]() ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.40%E2%80%AFPM.png) |
-<br><br><br>
+|Instructions for visual output based on input and program functionality| Allows the the ai dot or the user dot to be place in teh board accroing to where the user clicks and the ai is played ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.39.27%E2%80%AFPM.png) ---- ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.40%E2%80%AFPM.png) ----  ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.40.08%E2%80%AFPM.png)|
+
 ## Component B: Video 
 
-[Video Link](https://drive.google.com/file/d/1ABuaUy8QQnu4C5bEtYBdWsV4WsEGpEy8/view?usp=sharing)
+[Video Link](https://www.youtube.com/watch?v=Ue5uVJKyZpk)
 
 | Requirements | Completed | 
 | --------------- | -----------------| 
-| Input to your program | Y - Show Submit Answer into Answer Box |
+| Input to your program | Y - Show Submit Answer into Answer Box or click on box |
 | At least one aspect of the functionality of your program | Y - Show that Game Functions as Expected W/O Bugs |
-| Output produced by your program | Y - Show Visual Movement, Display Steps Moved, Money Gained, Show Victory/Loss Notification |
+| Output produced by your program | Y -  |
 | Your video may NOT contain: Any distinguishing information about yourself, Voice narration (though text captions are encouraged) | Y |
-| Your video must be: Either .webm, .mp4, .wmv, .avi, or .mov format | Y - .mp4 File |
+| Your video must be: Either .webm, .mp4, .wmv, .avi, or .mov format | No - Could'nt figure out a way to intergate subtitile without the use of Youtube |
 | No more than 1 minute in length | Y - 1 Minute Long |
-| No more than 30MB in file size | Y - 28 MB|
+| No more than 30MB in file size | Y - Youtube|
