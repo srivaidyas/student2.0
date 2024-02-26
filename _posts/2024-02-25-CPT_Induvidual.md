@@ -65,12 +65,12 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 
 
-| Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose | These lits details out all the possible combination for a win by either the player or the ai all the 3 box combinations ![Codepic]() | 
+| Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose | These lits details out all the possible combination for a win by either the player or the ai all the 3 box combinations ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.21.44%E2%80%AFPM.png) | 
 
 
 
 
-| One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | ![Codepic]()|
+| One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | The code below details out the ai move, wiout the ai move the game would not continue and thus this procedure contributed most to the program's intendfed purpose which keeps the game going on and the user challeged with teh ai moves and thus try their best to win the game. ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.24.59%E2%80%AFPM.png) ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-25%20at%209.25.22%E2%80%AFPM.png) |
 
 
 | An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure | ![Codepic]() |
