@@ -92,10 +92,10 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 | Requirements | Completed | 
 | --------------- | -----------------| 
-| Input to your program | Y - Show Submit Answer into Answer Box or click on box |
-| At least one aspect of the functionality of your program | Y - Show that Game Functions as Expected W/O Bugs |
-| Output produced by your program | Y -  |
-| Your video may NOT contain: Any distinguishing information about yourself, Voice narration (though text captions are encouraged) | Y |
+| Input to your program | Yes - Show Submit Answer into Answer Box or click on box |
+| At least one aspect of the functionality of your program | Yes - Show that Game Functions as Expected W/O Bugs |
+| Output produced by your program | Yes   |
+| Your video may NOT contain: Any distinguishing information about yourself, Voice narration (though text captions are encouraged) | Yes |
 | Your video must be: Either .webm, .mp4, .wmv, .avi, or .mov format | No - Could'nt figure out a way to intergate subtitile without the use of Youtube |
-| No more than 1 minute in length | Y - 1 Minute Long |
-| No more than 30MB in file size | Y - Youtube|
+| No more than 1 minute in length | Yes - 1 Minute Long |
+| No more than 30MB in file size | Yes - Youtube|
