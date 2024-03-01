@@ -27,12 +27,40 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 [Collegeboard Requirements](https://apcentral.collegeboard.org/media/pdf/ap-csp-student-task-directions.pdf)
 
+## Component A (Tic Tac Toe): Program Code  
+| Requirements | Completed | 
+| --------------- | -----------------| 
+
+| Instructions for input from the user (including user actions that trigger events) | The boxClickHandler(event) function manages user interaction by responding to clicks on the Tic Tac Toe game board. It captures the clicked box element and its position, ensuring it's a valid move before updating the game state. Following the player's move, it checks for win or tie conditions to determine the game's outcome. This function facilitates a seamless gameplay experience by allowing users to interact with the game interface and progress through the match based on their selections. ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.48.46%E2%80%AFPM.png) | 
+
+
+| Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose | The cont winngingCombination defines all the possible ways that the use or the AI can win. This is a key mapping because without this mapping the code would not be able to function as would stay at a staelment standstill after all the boxes are coverd with the ai or the user symbols ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.51.10%E2%80%AFPM.png) | 
+
+
+
+
+| One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | The main procedure tat contributes to the program's intended purpose in the chekWin function. THis function cross verifies the combination on the baord to the combination of the winning ones as defined by the contant above. This is a jey function as without this, the game would never have an acutally winner and both sides would jsut ocntrinue to play untill the board is just filled with X and O! ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.54.54%E2%80%AFPM.png)|
+
+
+| An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure |In the makeAIMove() function, the AI follows a step-by-step approach to decide its next move. First, it checks which cells on the game board are empty and available for selection. Then, it evaluates potential moves, considering strategies like blocking the opponent's winning moves or attempting to win itself. Once it has made a decision, it places its symbol in the chosen cell. This sequence of actions ensures the AI's strategic gameplay in Tic Tac Toe. ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.56.48%E2%80%AFPM.png) |
+
+
+
+| Calls to your student-developed procedure | At the end of the code the game's intialization code is called through. This activates all the other function deinfed above. Additioanlly at many parts of the code, the makeAIMovewithDelay function is also being called, this function is a part of the AI movement, and thus encapsulates most of how the AI is supposed to move with an added twist of it move 500 later or 0.5 seconds later ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.57.54%E2%80%AFPM.png) ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.00.15%E2%80%AFPM.png) |
+
+
+| Instructions for textual output based on input and program functionality | Within the checkWin function is the textual output for every desired outcome in the baord, if the plahyer wins the screen alerts the user that they have won and if the programs identifies that the AI has won then it alerts that the AI has won to the user. Additionally it also updates the AI and Player money on the screen for everywin , not really money but rather a poitn system where the player or the ai is granted a point based on when they win.![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.01.30%E2%80%AFPM.png)|
+
+
+|Instructions for visual output based on input and program functionality| Within the board itslef the displayWinningCombination function is what creates the visually appealing nature of the tic tac toe wherein the user and the ai symbols are clearly displayed for the user to see and play against. With every move by the player this function idefities when the boxes are and the player or the ai wins the winning combination is identified and the player or the ai is alerted ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.06.37%E2%80%AFPM.png)|
+
+| Instructions for time out and restar to fthe game| After every win the baord is reset with the point system still intact and a new symbol alloted for the AI and the user to play against. ie the assign roles function ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.07.08%E2%80%AFPM.png)|
+
+
 ## Component A (Crosswords): Program Code 
 
 | Requirements | Completed | 
 | --------------- | -----------------| 
-
-
 | Instructions for input from the user (including user actions that trigger events) |This JavaScript code defines a function checkAnswer() for validating user input in a crossword puzzle game. It retrieves the user's input and compares it to the correct answer, updating the puzzle accordingly. The function handles moving to the next hint or word, marking completed words, and ending the game when all answers are correct or after 11 questions. It also sets up an event listener for user input, triggering the answer check when the user hits Enter. Overall, the code manages user interaction in a crossword puzzle game, ensuring proogress and feedback based on the correct of answers. ![codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-27%20at%2011.32.11%E2%80%AFAM.png)|
 
 
@@ -62,36 +90,13 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 | Note| Many of the college board requirments are satisfied byt he checkanswer() function|
 
-<br><br>
 
-## Component A (Tic Tac Toe): Program Code  
-| Requirements | Completed | 
-| --------------- | -----------------| 
-|  Instructions for input from the user (including user actions that trigger events) | The boxClickHandler(event) function manages user interaction by responding to clicks on the Tic Tac Toe game board. It captures the clicked box element and its position, ensuring it's a valid move before updating the game state. Following the player's move, it checks for win or tie conditions to determine the game's outcome. This function facilitates a seamless gameplay experience by allowing users to interact with the game interface and progress through the match based on their selections. ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.48.46%E2%80%AFPM.png) | 
+## Component B: Commits
 
-| Use of at least one list (or other collection type) to represent a collection of data that is stored and used to manage program complexity and help fulfill the program’s purpose | The cont winngingCombination defines all the possible ways that the use or the AI can win. This is a key mapping because without this mapping the code would not be able to function as would stay at a staelment standstill after all the boxes are coverd with the ai or the user symbols ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.51.10%E2%80%AFPM.png) | 
+| Commits | ![Codepic]() |
 
 
-
-
-| One procedure that contributes to the program’s intended purpose, where you have defined: the procedure’s name, the return type (if necessary), one or more parameters | The main procedure tat contributes to the program's intended purpose in the chekWin function. THis function cross verifies the combination on the baord to the combination of the winning ones as defined by the contant above. This is a jey function as without this, the game would never have an acutally winner and both sides would jsut ocntrinue to play untill the board is just filled with X and O! ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.54.54%E2%80%AFPM.png)|
-
-
-| An algorithm that includes sequencing, selection, and iteration that is in the body of the selected procedure |In the makeAIMove() function, the AI follows a step-by-step approach to decide its next move. First, it checks which cells on the game board are empty and available for selection. Then, it evaluates potential moves, considering strategies like blocking the opponent's winning moves or attempting to win itself. Once it has made a decision, it places its symbol in the chosen cell. This sequence of actions ensures the AI's strategic gameplay in Tic Tac Toe. ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.56.48%E2%80%AFPM.png) |
-
-
-
-| Calls to your student-developed procedure | At the end of the code the game's intialization code is called through. This activates all the other function deinfed above. Additioanlly at many parts of the code, the makeAIMovewithDelay function is also being called, this function is a part of the AI movement, and thus encapsulates most of how the AI is supposed to move with an added twist of it move 500 later or 0.5 seconds later ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%209.57.54%E2%80%AFPM.png) ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.00.15%E2%80%AFPM.png) |
-
-
-| Instructions for textual output based on input and program functionality | Within the checkWin function is the textual output for every desired outcome in the baord, if the plahyer wins the screen alerts the user that they have won and if the programs identifies that the AI has won then it alerts that the AI has won to the user. Additionally it also updates the AI and Player money on the screen for everywin , not really money but rather a poitn system where the player or the ai is granted a point based on when they win.![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.01.30%E2%80%AFPM.png)|
-
-
-|Instructions for visual output based on input and program functionality| Within the board itslef the displayWinningCombination function is what creates the visually appealing nature of the tic tac toe wherein the user and the ai symbols are clearly displayed for the user to see and play against. With every move by the player this function idefities when the boxes are and the player or the ai wins the winning combination is identified and the player or the ai is alerted ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.06.37%E2%80%AFPM.png)|
-
-| Instructions for time out and restar to fthe game| After every win the baord is reset with the point system still intact and a new symbol alloted for the AI and the user to play against. ie the assign roles function ![CodePic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.07.08%E2%80%AFPM.png)|
-
-## Component B: Video 
+## Component C: Video 
 
 [Video Link](https://www.youtube.com/watch?v=Ue5uVJKyZpk)
 
