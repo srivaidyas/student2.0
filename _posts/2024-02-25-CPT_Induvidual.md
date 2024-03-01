@@ -93,10 +93,14 @@ For the crosswords, it was not the exact gameplay of regular crossword but rathe
 
 ## Component B: Commits
 
-| Commits | ![Codepic]() |
+
+
+| Commits | ![Codepic](https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/Screenshot%202024-02-29%20at%2010.21.20%E2%80%AFPM.png) |
 
 
 ## Component C: Video 
+
+
 
 [Video Link](https://www.youtube.com/watch?v=Ue5uVJKyZpk)
 
