@@ -29,3 +29,8 @@ Unit6:
   description: Trimeter 2 conclusion, with N@TM prep as well practice MCQ, N@TM presentations on the 15th of February.
   start: 22
   end: 24
+Unit7:
+  title: Data Structures and Data Science
+  description: Begining of trimester 3, with data structures and new teams. Topics such as lists, stacks, queues.
+  start: 25
+  end: 29
