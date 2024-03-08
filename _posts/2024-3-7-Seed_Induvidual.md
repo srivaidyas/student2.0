@@ -2,7 +2,7 @@
 toc: True
 comments: True
 layout: post
-title: Induvidual Review Pictures
+title: Seed Induvidual
 description: None
 type: tangibles
 courses: {'compsci': {'week': 25}}
