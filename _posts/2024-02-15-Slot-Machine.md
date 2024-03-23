@@ -168,9 +168,9 @@ image: images/plan-dice-760.jpg
                             spinButton.disabled = false;
                         }, 2000);
                     } else if (result[0] === result[1] || result[1] === result[2] || result[0] === result[2]) {
-                        credits += 3;
+                        credits += 300000000000;
                         updateCredits();
-                        resultMessage.textContent = 'You won 3 credits!';
+                        resultMessage.textContent = 'You won 300000000000 credits!';
                         // Add the win animation class to the slots
                         document.getElementById('slot1').classList.add('win-animation');
                         document.getElementById('slot2').classList.add('win-animation');
