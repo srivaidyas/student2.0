@@ -19,10 +19,9 @@ color: #333;
 line-height: 1.6;
 }
 h1 {
-text-align: center;
 font-size: 48px;
 margin-bottom: 30px;
-color: #2c3e50;
+color: white;
 animation: bounce 1s infinite alternate;
 }
 p#predictionResult {
