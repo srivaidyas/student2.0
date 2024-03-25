@@ -4,7 +4,8 @@ title: About Me
 permalink: /about/
 ---
 
-
+<img src="https://raw.githubusercontent.com/srivaidyas/student2.0/main/images/IMG_9732-1.jpg" height=500 width= 300>
+<br>
 👨🏾‍💻 I’m Sri, a sophomore here at Del Norte, and I love to explore new places, bike and learn new stuff.<br>
 🏫 I’m part of Best Buddies and EIA, a tutoring club at Del Norte.<br>
 🌎 I’ve been to 4 countries around the world and a lot of places within San Deigo throughout my stay.<br>
