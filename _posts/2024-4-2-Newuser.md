@@ -9,7 +9,6 @@ courses: { compsci: {week: 29} }
 image: images/plan-dice-760.jpg
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">

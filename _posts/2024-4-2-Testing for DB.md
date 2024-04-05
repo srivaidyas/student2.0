@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Database Testing
 description: 
-type: hacks
+type: tangibles
 courses: { compsci: {week: 29} }
 image: images/plan-dice-760.jpg
 ---
