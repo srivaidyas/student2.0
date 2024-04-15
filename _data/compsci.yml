@@ -34,3 +34,8 @@ Unit7:
   description: Begining of trimester 3, with data structures and new teams. Topics such as lists, stacks, queues.
   start: 25
   end: 29
+Unit8:
+  title: AP Weeks and Preparation
+  description: Prepare for the AP test for the AP Exam. Exam on the 13th of May.
+  start: 30
+  end: 32
