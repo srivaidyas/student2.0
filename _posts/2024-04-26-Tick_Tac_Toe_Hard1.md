@@ -1,7 +1,5 @@
 ---
 layout: post
-title: CPT
-permalink: /tictactoe/
 ---
 
 <html lang="en">
@@ -14,8 +12,8 @@ permalink: /tictactoe/
     font-family: 'Roboto', sans-serif;
     }
     body {
-        margin: 0;
-        padding: 0;
+        margin: 80px; 
+        padding: 20px;
         height: 100vh;
         background-image: url('https://wallpapers.com/images/hd/plain-black-background-02fh7564l8qq4m6d.jpg');
         background-size: cover;
@@ -116,10 +114,10 @@ permalink: /tictactoe/
 </div>
 
 <br><br>
-<div>
-    <label for="player-name" color="white">Input Name:</label>
+<div><center>
+    <label for="player-name" color="white"></label>
     <input type="text" id="player-name" name="player-name" placeholder="Enter your name">
-    <button onclick="submitToLeaderboard()">Submit to Leaderboard</button>
+    <button onclick="submitToLeaderboard()">Submit to Leaderboard</button></center>
 </div>
 
 <script>
