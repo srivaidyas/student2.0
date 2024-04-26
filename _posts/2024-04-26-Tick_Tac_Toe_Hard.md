@@ -125,6 +125,9 @@ image: images/erfef.webp
     <label for="player-name" color="white">Input Name:</label>
     <input type="text" id="player-name" name="player-name" placeholder="Enter your name">
     <button onclick="submitToLeaderboard()">Submit to Leaderboard</button>
+    <br><br><br><center>
+    <p style="color: yellow;">Warning</p></center>
+    <p style="color: white;">Please enter the same name you entered if you've played the game before</p>
 </div>
 
 <script>
