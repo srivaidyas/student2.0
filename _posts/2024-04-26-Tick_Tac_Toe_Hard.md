@@ -1,7 +1,7 @@
 ---
 toc: true
 comments: false
-layout: base
+layout: none
 title: Tick Tac Toe
 description: 
 type: tangibles
