@@ -5,7 +5,7 @@ layout: post
 title: Leaderboard 
 description: 
 type: tangibles
-courses: { compsci: {week: 29} }
+courses: { compsci: {week: 31} }
 image: images/plan-dice-760.jpg
 ---
 <html lang="en">

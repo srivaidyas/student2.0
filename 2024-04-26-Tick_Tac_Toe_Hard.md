@@ -1,12 +1,7 @@
 ---
-toc: true
-comments: false
-layout: base
-title: Tick Tac Toe
-description: 
-type: tangibles
-courses: { compsci: {week: 31} }
-image: images/erfef.webp
+layout: post
+title: CPT
+permalink: /tictactoe/
 ---
 
 <html lang="en">
