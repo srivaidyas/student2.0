@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Ceaser-Cipher Encrypter
-description: 
+description: This algorithm encrypts data by storing it in a backend database and assigning it a unique encryption id.
 type: hacks
 courses: { compsci: {week: 36} }
 image: images/plan-dice-760.jpg

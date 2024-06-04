@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: none
 title: Tick Tac Toe
-description: 
+description: This is a tic tac toe game against the computer
 type: tangibles
 courses: { compsci: {week: 31} }
 image: images/erfef.webp

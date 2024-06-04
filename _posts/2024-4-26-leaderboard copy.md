@@ -3,7 +3,7 @@ toc: true
 comments: false
 layout: post
 title: Leaderboard 
-description: 
+description: Leaderboard for the tic tac tow game
 type: tangibles
 courses: { compsci: {week: 31} }
 image: images/plan-dice-760.jpg
