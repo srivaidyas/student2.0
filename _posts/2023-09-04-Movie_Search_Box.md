@@ -2,8 +2,8 @@
 toc: true
 comments: false
 layout: post
-title: JS API Movie and TV Series Search Box
-description: This search box uses JavaScript API so extract details from The Movie Database using an API created at that website. It then formats it to produce 8 major details, the name, the movie/series's poster, overview, rating, release date, genre, Mpaa rating aswell as using the input from the dynamic script and using it to search for trailers about the movie across youtube. Most of the code was done using the air of helpful tools such as my family, friends and chat, but I've done the code of the CSS formatting, genre and Mpaa maping. 
+title: Movie and TV Series Search Box
+description: This search box uses the TMDb API to extract details about movies and TV series. It provides the name, poster, overview, rating, release date, genre, MPAA rating, and a YouTube trailer link. The CSS formatting, genre mapping, and MPAA rating mapping were done with help from family, friends, and chat.
 type: hacks
 courses: { compsci: {week: 3} }
 image: images/djfhg.avif
@@ -13,25 +13,75 @@ image: images/djfhg.avif
 
 <br><br>
 
-
-
-
-
-
 <html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie/TV Series Search</title>
-     <style>
-        /* CSS styles for the search bar */
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            width: 100%;
+        }
+        h1 {
+            color: #fff;
+        }
         #searchInput {
-            width: 300px; 
+            padding: 15px;
+            font-size: 18px;
+            width: 70%;
+            max-width: 500px;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 20px;
+            text-align: center;
+            box-shadow: 0 0 0 2px #fff; /* 2px white outline */
+        }
+        #searchButton {
+            width: 100px; 
             height: 40px; 
             font-size: 16px; 
             border-radius: 20px; 
-            padding: 5px 10px; 
+                    margin-top: 45px;
+            padding: 5px 10px;
+        }
+        #searchButton:hover {
+            background-color: #45a049;
+        }
+        #result {
+            margin-top: 20px;
+            color: #fff;
+            align: left;
+        }
+        img {
+            border-radius: 10px;
+            margin-top: 10px;
+            max-width: 300px;
+            height: auto;
+            align: center;
+        }
+        p {
+            margin: 5px 0;
+        }
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 
@@ -43,13 +93,10 @@ image: images/djfhg.avif
         <button id="searchButton">Search</button>
         <div id="result"></div>
     </div>
-
     <script>
         const searchInput = document.getElementById('searchInput');
         const searchButton = document.getElementById('searchButton');
         const resultDiv = document.getElementById('result');
-
-        
         const apiKey = '8b9514e6242bb1620afcbec32775e783';
 
         
